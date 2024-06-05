@@ -1,0 +1,11 @@
+// 초기세팅
+// 1. npm install -g typescript (타입스크립트 다운로드, node 버전 확인하기)
+// 2. tsconfig.json 파일명 만들기 (컴파일 시 옵션)
+// 3. tsc -w 로 .ts를 .js로 변환시키기(.ts 파일은 브라우저가 읽지 못함, 이를 js로 변환해야 함)
+
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS"
+  }
+}
